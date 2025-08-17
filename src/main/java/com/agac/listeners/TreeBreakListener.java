@@ -31,12 +31,6 @@ public class TreeBreakListener implements Listener {
             return;
         }
         
-        // Oyuncunun elinde balta var mı kontrol et
-        ItemStack tool = player.getInventory().getItemInMainHand();
-        if (!treeUtils.isValidTool(tool)) {
-            return;
-        }
-        
         // Event'i iptal et (normal kırma işlemini engelle)
         event.setCancelled(true);
         

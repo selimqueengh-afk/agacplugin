@@ -1,5 +1,4 @@
 com/agac/AgacPlugin.class
-com/agac/listeners/TreeBreakListener.class
 com/agac/utils/TreeUtils.class
+com/agac/listeners/TreeBreakListener.class
 com/agac/commands/AgacCommand.class
-com/agac/utils/TreeUtils$1.class

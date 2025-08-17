@@ -1,20 +1,8 @@
 # Agac Plugin Konfigürasyon Dosyası
 
-# Ağaç kırma ayarları
 tree-breaking:
-  # Animasyon hızı (tick cinsinden, 20 tick = 1 saniye)
-  animation-speed: 2
-  
-  # Ekstra drop şansları
-  extra-drops:
-    # Odun kırarken çubuk düşme şansı (%)
-    stick-chance: 10.0
-    
-    # Yaprak kırarken elma düşme şansı (%)
-    apple-chance: 5.0
-    
-    # Yaprak kırarken çubuk düşme şansı (%)
-    leaf-stick-chance: 2.0
+  # Anlık kırma etkin (smooth timber benzeri)
+  instant: true
 
 # Desteklenen ağaç türleri
 supported-trees:
@@ -45,17 +33,4 @@ supported-trees:
     - NETHER_WART_BLOCK
     - SHROOMLIGHT
 
-# Desteklenen araçlar
-supported-tools:
-  - WOODEN_AXE
-  - STONE_AXE
-  - IRON_AXE
-  - DIAMOND_AXE
-  - NETHERITE_AXE
-
-# Mesajlar
-messages:
-  prefix: "&6[Agac] &r"
-  no-permission: "&cBu özelliği kullanma yetkiniz yok!"
-  tree-broken: "&aAğaç başarıyla kırıldı!"
-  invalid-tool: "&cAğaç kırmak için balta kullanmalısınız!"
+# Mesajlar gösterilmez; bu plugin herhangi bir mesaj çıkarmadan çalışır
