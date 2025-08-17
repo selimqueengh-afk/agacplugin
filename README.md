@@ -1,5 +1,8 @@
 # 🌳 Agac Plugin
 
+[![Build and Release](https://github.com/agac/agac/actions/workflows/release.yml/badge.svg)](https://github.com/agac/agac/actions/workflows/release.yml)
+[![PR Check](https://github.com/agac/agac/actions/workflows/pr-check.yml/badge.svg)](https://github.com/agac/agac/actions/workflows/pr-check.yml)
+
 Minecraft 1.21.7 sunucuları için gelişmiş ağaç kırma plugin'i.
 
 ## ✨ Özellikler
