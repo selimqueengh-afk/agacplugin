@@ -1,0 +1,19 @@
+name: Agac
+version: 1.0.0
+main: com.agac.AgacPlugin
+api-version: 1.21
+description: Gelişmiş ağaç kırma plugin
+author: Agac
+website: https://github.com/agac
+commands:
+  agac:
+    description: Ağaç kırma plugin komutları
+    usage: /<command> [reload|info]
+    permission: agac.admin
+permissions:
+  agac.admin:
+    description: Plugin yönetimi
+    default: op
+  agac.usetree:
+    description: Ağaç kırma özelliğini kullanma
+    default: true

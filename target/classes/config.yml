@@ -1,0 +1,36 @@
+# Agac Plugin Konfigürasyon Dosyası
+
+tree-breaking:
+  # Anlık kırma etkin (smooth timber benzeri)
+  instant: true
+
+# Desteklenen ağaç türleri
+supported-trees:
+  logs:
+    - OAK_LOG
+    - BIRCH_LOG
+    - SPRUCE_LOG
+    - JUNGLE_LOG
+    - ACACIA_LOG
+    - DARK_OAK_LOG
+    - MANGROVE_LOG
+    - CHERRY_LOG
+    - BAMBOO_BLOCK
+    - CRIMSON_STEM
+    - WARPED_STEM
+  
+  leaves:
+    - OAK_LEAVES
+    - BIRCH_LEAVES
+    - SPRUCE_LEAVES
+    - JUNGLE_LEAVES
+    - ACACIA_LEAVES
+    - DARK_OAK_LEAVES
+    - MANGROVE_LEAVES
+    - CHERRY_LEAVES
+    - AZALEA_LEAVES
+    - FLOWERING_AZALEA_LEAVES
+    - NETHER_WART_BLOCK
+    - SHROOMLIGHT
+
+# Mesajlar gösterilmez; bu plugin herhangi bir mesaj çıkarmadan çalışır
